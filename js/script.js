@@ -7,9 +7,15 @@ $("#aggiungi").keydown(
 
     if ( testo != "" ) {
       var template = $(".template li").clone();
-      template.append(testo);
+      template.prepend(testo);
       $(".todo-list").append(template);
       $(this).val(" ");
     }
   }
 });
+
+$(document).on("click", ".todo-list .delete",
+  function(){
+    $(this).parent().remove();
+  }
+);
