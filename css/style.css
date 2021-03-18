@@ -17,20 +17,29 @@ h4{
 
 main{
   text-align: center;
-  margin-top: 40px;
+  margin-top: 30px;
+  padding-top: 20px;
+  background-color: #FBE0D7;
+  width: 80%;
+  margin: auto;
 }
 
 #aggiungi{
   margin-bottom: 40px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  border: 0 solid;
 }
 
-.todo-list{
-  background-color: #FBE0D7
+#aggiungi:focus{
+  outline: none;
 }
+
 
 .todo-list li {
   list-style: none;
   color: #412020;
+  font-size: 17px;
 }
 
 .delete{
