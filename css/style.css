@@ -1,3 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  background-color: #412020;
+}
+
+h4{
+  text-align: center;
+  color: #ffff;
+  padding: 10px 0px;
+  text-transform: uppercase;
+}
+
+main{
+  text-align: center;
+  margin-top: 40px;
+}
+
+#aggiungi{
+  margin-bottom: 40px;
+}
+
+.todo-list{
+  background-color: #FBE0D7
+}
+
+.todo-list li {
+  list-style: none;
+  color: #412020;
+}
+
+.delete{
+  color: red;
+}
+
+
+
+
+
+
+
 .template{
   display: none;
 }
